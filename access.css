@@ -1,0 +1,196 @@
+/* ↓ここから共通↓ */
+
+body {
+  margin: 0px;
+  padding:0px;
+  font-family: "ヒラギノ明朝";
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align:center;
+ 
+}
+
+
+
+.top-wrapper {
+  height:420px;
+  padding: 130px 0 200px 0;
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/17.jpg); */
+  background-image: url('./17.JPG');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 180px;
+  
+}
+
+header {
+  background-color:#800000;
+  height:50px;
+  padding-top:0px;
+  margin:0px;
+  color:white;
+
+}
+
+/* リンクの文字白に */
+header a {
+  color:white;
+}
+
+
+/* ヘッダー上の空白削除 */
+ul {
+  margin:0px;
+}
+
+li {
+  list-style:none;
+  float:left;
+  font-size:30px; 
+  padding:0px 20px;
+  padding-top:2px;
+}
+
+
+/* ↑ここまで共通↑ */
+
+/* ↓タイトル、文章、写真2つ横並び(divの箱2つ横並び)↓ */
+
+.second-wrapper {
+  height:900px;
+  background-color:white;
+  position:relative;
+}
+
+.second-wrapper h2 {
+  text-align:center;
+  font-size:30px;
+  margin-right:200px;
+  margin-bottom:0px;
+}
+
+/* 文字を中央に配置 */
+.second-wrapper h1 {
+  text-align:center;
+  font-size:80px;
+  margin:0px 0px;
+}
+
+.container p {
+  text-align:center;
+}
+
+.map {
+  width:400px;
+  height:200px;
+}
+
+.map-text {
+  margin-top:290px;
+  margin-right:320px;
+  font-size:30px;
+}
+
+
+
+.shop-info {
+  text-align:left;
+  margin-top:100px;
+  margin-left:350px;
+  font-size:28px;
+}
+
+.second-wrapper img {
+  position:absolute;
+}
+
+.map {
+  width:720px;
+  height:300px;
+  top:150px;
+  left:360px;
+}
+
+.qr {
+  width:200px;
+  height:200px;
+  top:620px;
+  left:720px;
+}
+
+.jun {
+  width:400px;
+  height:400px;
+  top:490px;
+  left:820px;
+}
+
+
+
+
+
+
+
+
+/* ↑タイトル、文章、写真↑ */
+
+
+
+/* ↓フッター↓ */
+
+footer {
+  background-color:#ffa500;
+  height:370px;
+  padding-top:0px;
+  margin:0px;
+  color:white;
+}
+
+footer img {
+  display:inline-block;
+  float:left;
+  margin:20px 20px;
+}
+
+/* 潜り込みを解消 */
+.info {
+  clear:both;
+}
+
+.info p {
+  margin:5px 15px;
+}
+
+.info .name {
+  font-size:45px;
+  margin:0px 20px;
+}
+
+.info a {
+  color:white;
+}
+
+/* ↑フッター↑ */
+
+
+
+
+
+
+
+
+
+
