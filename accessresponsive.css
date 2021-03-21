@@ -17,8 +17,8 @@
   }
   
   .box1 h1 {
-    padding-top:200px;
-    font-size:55px;
+    padding-top:150px;
+    font-size:100px;
   }
   
   header {
@@ -40,85 +40,92 @@
   }
 
   .box2 {
-    /* background-color:pink; */
+    background-color:pink;
     width:100%;
-    height:1050px;
+    height:1600px;
     text-align:center;
     position:relative;
   }
 
   .box2 h3 {
+    font-size:40px;
     padding-top:100px;
   }
   
   .box2 h2 {
-    font-size:40px;
+    font-size:70px;
     padding-bottom:10px;
-    margin:0px 300px;
+    margin:0px 200px;
     border-bottom:2px solid black;
   }
   
   .box2 p {
-    font-size:18px;  
+    font-size:40px;  
+  }
+
+  .map {
+    width:640px;
+    height:260px;
   }
 
   .box2 .jusho {
     text-align:left;
-    padding-left:220px;
+    padding-left:170px;
     padding-top:60px;
   }
 
   .box2 .ippun {
     text-align:left;
     padding-left:220px;
-    padding-bottom:80px;
+    padding-bottom:120px;
   }
 
   .box2 .shosai {
     text-align:left;
     padding-left:220px;
-    line-height:35px;
+    line-height:60px;
   }
 
   .qr {
     position:absolute;
-    width:150px;
-    height:150px;
-    top:850px;
-    left:380px;
+    width:250px;
+    height:250px;
+    top:1250px;
+    left:250px;
   }
   
   .jun {
     position:absolute;
-    width:300px;
-    height:300px;
-    top:750px;
-    left:430px;
+    width:500px;
+    height:500px;
+    top:1100px;
+    left:400px;
   }
   
   
   footer {
     background-color:#ffa500;
     width:100%;
-    height:320px;
+    height:700px;
   }
   
   footer img {
     float:left;
-    margin:20px 8px;
-    width:48px;
-    height:50px;
+    margin:20px 30px;
+    width:100px;
+    height:100px;
   }
   
   .info p {
     margin:2px 15px;
-    font-size:15px;
+    font-size:40px;
   }
   
   .info .name {
-    font-size:25px;
+    font-size:80px;
     margin:0px 20px;
   }
+  
   
   
   
