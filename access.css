@@ -78,6 +78,11 @@ li {
   line-height:40px;
 }
 
+.box2 .inageya {
+
+  display:none;
+}
+
 .qr {
   position:absolute;
   width:150px;
