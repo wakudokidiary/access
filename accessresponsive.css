@@ -26,22 +26,74 @@
     font-size:100px;
   }
   
+  /* ここからメニュー */
+
+  .bar {
+    width:150px;
+    height:120px;
+    top:20px;
+    left:810px;
+    position:absolute;
+    position:fixed;
+    display:block;
+    z-index:12;
+    opacity:0.9;
+  }
+
+  .menu {
+    background-color:#ffa500;
+    width:480px;
+    height:750px;
+    top:15px;
+    left:483px;
+    position:absolute;
+    border:2px solid black;
+    opacity:0.9;
+    position:fixed;
+    z-index:15;
+    display:none;
+    border-radius:10px;
+  }
+
+
+  
+  .menu li {
+    list-style:none;
+    padding:20px 45px;
+    font-size:40px;
+    color:black;
+  }
+
+  .batsu {
+    width:120px;
+    height:120px;
+    top:10px;
+    left:330px;
+    position:absolute;
+  }
+
+
+
+  /* ここまでメニュー */
+
   header {
     background-color:#800000;
     width:100%;
     height:60px;
   }
   
-  ul {
+  header ul {
     width:2000px;
+    display:none;    
   }
   
-  li {
+  header li {
     float:left;
     list-style:none;
     padding:20px 45px;
     font-size:15px;
     color:white;
+    display:none;
   }
 
   .box2 {

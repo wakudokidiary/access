@@ -36,6 +36,18 @@ li {
   color:white;
 }
 
+/* ここからメニュー */
+
+.bar {
+  display:none;
+}
+
+.menu {
+  display:none;
+}
+
+/* ここまでメニュー */
+
 .box2 {
   /* background-color:pink; */
   width:100%;
