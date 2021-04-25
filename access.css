@@ -116,6 +116,11 @@ a {
   color:black;
 }
 
+.click {
+  color:#f08080;
+  font-weight:bold;
+}
+
 footer {
   background-color:#ffa500;
   width:100%;
